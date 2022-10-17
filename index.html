@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!---Titulo da aba-->
+    <link rel="stylesheet" href="pagina teste.css">
+    <!---No href vai o diretório do novo arquivo css (criação de novo arquivo) Lembrar de fazer o link de css sempre que for criar um novo arquivo-->
+    <video src="C:\Users\Ayron\Downloads\treinamento EDGE.mp4" type="video/mp4" controls></video>
+    <!---Adicionando um vídeo (tem que ser em mp4) e usando o controle de player-->
+</head>
+
+<body>
+    <form action="dados.php" method="post">
+        <!---Fazer a menção da pagina php criada dentro do action-->
+        <label for="email">E-mail:</label>
+        <!---Criação de uma espécie de variável. A parte em branco será o nome da label estático-->
+        <input type="email" id="email">
+        <!--Informando o tipo de dado de entrada com o type, adicionando o valor a variável com o value (é somente usado para deixar um valor predefinido), referenciando uma variável com uma id para modificação futura--->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha">
+        <button type="submit" id="Enviar">Enviar</button>
+        <!---Usado para criar um botão (subimit - enviar) o tipo pode ser modificado-->
+
+    </form>
+</body>
+
+</html>
