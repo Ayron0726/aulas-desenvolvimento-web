@@ -15,7 +15,5 @@ $nota = ($prova1 + $prova2)/2;
     	$desempenho = "EXCELENTE";
         
     echo "O SEU DESEMPENHO FOI: $desempenho";
-    
-#Usando o if
 
 #Saída: O SEU DESEMPENHO FOI: MÉDIO
