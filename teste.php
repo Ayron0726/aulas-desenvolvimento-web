@@ -1,14 +1,7 @@
-$opcao = "";
+<?php
 
-switch($opcao){
-
-    case's':
-        echo "Você escolheu sim!";
-        break;
-    case'n':
-        echo"Você escolheu não!";
-        break;
-    default:
-        echo"A opção é inválida";
-        break;
-}
+echo"Olá mun"
+//while($cont<100){
+    //echo "O valor atual do contador é $cont <br>";
+    //$cont++;
+    ;
